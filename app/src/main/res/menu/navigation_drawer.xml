@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/navigation_ebook"
+        android:title="Important Content"
+        android:icon="@drawable/ic_ebook"/>
+
+
+    <item android:id="@+id/navigation_video"
+        android:title="College Video"
+        android:icon="@drawable/ic_video"/>
+
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/ic_website"/>
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"/>
+
+   <group>
+       <item android:id="@+id/navigation_profile"
+           android:title="Profile"
+           android:icon="@drawable/ic_developer"/>
+       <item android:id="@+id/navigation_event_register"
+           android:title="Event Registration"
+           android:icon="@drawable/ic_developer"/>
+       <item android:id="@+id/navigation_logout"
+           android:title="Logout"
+           android:onClick="Logout"
+           />
+
+
+   </group>
+
+<!--    <item android:id="@+id/navigation_developer"-->
+<!--        android:title="Developers"-->
+<!--        android:icon="@drawable/ic_developer"/>-->
+
+</menu>
